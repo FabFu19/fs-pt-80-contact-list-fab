@@ -1,0 +1,7 @@
+
+.form-control:focus {
+    box-shadow: none;
+}
+.btn_changes{
+    margin-left: 12px;
+}

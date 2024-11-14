@@ -4,6 +4,8 @@ import {createRoot} from 'react-dom/client'
 
 //include your index.scss file into the bundle
 import "../styles/index.css";
+import "../styles/cardContact.css";
+import "../styles/form-control-styles.css";
 
 //import your own components
 import Layout from './layout.js'
