@@ -16,10 +16,10 @@ export const Contacts = () => {
                 <div className="style-content-contacts">
                     <AddContacts />
                     <h1 className="mb-3 ms-3 title-contact">Contacts</h1>
-                    <ul className="list-group align-items-center">
+                    <ul className="list-group">
                         {store.contactList?.contacts?.length > 0 ? store.contactList?.contacts?.map(el => <CardContact contact={el} key={el.id} />)
                             :
-                            (<div className="alert alert-secondary d-flex justify-content-center">
+                            (<div className="alert alert-secondary d-flex justify-content-center ms-3 me-3">
                                 <h6>Contact list empty!</h6></div>)}
                     </ul>
                 </div>
